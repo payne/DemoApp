@@ -11,7 +11,19 @@ eventsApp.controller('EventController',
                 address: 'Google Headquarters',
                 city: 'Mountain View',
                 province: 'CA'
-            }
+            },
+            imageUrl: 'img/angularjs-logo.png',
+            sessions: [
+                {
+                    name: 'Directives Masterclass'
+                },
+                {
+                    name: 'Scopes for fun and profit'
+                },
+                {
+                    name: 'Well Behaved Controllers'
+                }
+            ]
         };
 
     }
