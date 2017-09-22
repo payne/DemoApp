@@ -15,13 +15,25 @@ eventsApp.controller('EventController',
             imageUrl: 'img/angularjs-logo.png',
             sessions: [
                 {
-                    name: 'Directives Masterclass'
+                    name: 'Directives Masterclass',
+                    creatorName: 'Bob Smith',
+                    duration: '1 hr',
+                    level: 'Advanced',
+                    abstract: 'In this session you will learn the ins and outs of directives.'
                 },
                 {
-                    name: 'Scopes for fun and profit'
+                    name: 'Scopes for fun and profit',
+                    creatorName: 'John Doe',
+                    duration: '30 minutes',
+                    level: 'Introductory',
+                    abstract: 'This session will take a closer look at scopes...'
                 },
                 {
-                    name: 'Well Behaved Controllers'
+                    name: 'Well Behaved Controllers',
+                    creatorName: 'Jane Doe',
+                    duration: '2 hours',
+                    level: 'Intermediate',
+                    abstract: 'Controllers are the beginning of everthing Angular'
                 }
             ]
         };
