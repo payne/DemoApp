@@ -27,6 +27,13 @@
                 <div><strong>Date:</strong> {{event.date}}</div>
                 <div><strong>Time:</strong> {{event.time}}</div>
             </div>
+            <div class="span4">
+                <address>
+                    <strong>Address:</strong><br/>
+                    {{event.location.address}}<br/>
+                    {{event.location.city}}, {{event.location.province}}
+                </address>
+            </div>
         </div>
 
     </div>
