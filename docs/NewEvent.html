@@ -43,7 +43,7 @@
                 <img ng-src="{{event.imageUrl}}" src=""/>
                 <br/>
                 <br/>
-                <button type="submit" ng-click="saveEvent(event, newEventForm)" class="btn btn-primary">Save</button>
+                <button type="submit" ng-click="saveEvent(event, newEventForm)" ng-disabled="newEventForm.$invalid" btn btn-primary">Save</button>
                 <button type="button" ng-click="cancelEdit()" class="btn btn-default">Cancel</button>
             </form>
         </div>
